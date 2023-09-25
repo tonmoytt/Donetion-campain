@@ -1,8 +1,11 @@
+import { Outlet } from "react-router-dom";
+
  
 
 const Home = () => {
     return (
-        <div>
+        <div className="m-10">
+             <h1>this is home</h1>
             
         </div>
     );

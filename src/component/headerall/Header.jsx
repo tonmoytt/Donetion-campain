@@ -1,26 +1,23 @@
- 
 import { Outlet } from "react-router-dom";
 import Navbar from "./nav/Navbar";
-import Saerchbar from "../Saerchbar/Saerchbar";
-
+import Saerchbar from "../searchbar/Searchbar";
+import Jsonfile from "../../Json/Jsonfile/Jsonfile";
+// import '../searchbar/'
  
-
 const Header = () => {
     return (
-        <div>
-        
-        <div className="flex justify-between m-10 items-center shadow-md">
-          {/* <img src="I" alt="" /> */}
-          <p>hl</p>
-             <Navbar></Navbar>
-             <Outlet></Outlet>
-             </div>
-            
-             <Saerchbar></Saerchbar>
-           
-             
+        <div className="Box">
+
+            <div>
+                <Navbar></Navbar>
+            </div>
+
+            <Outlet></Outlet>
+            <Saerchbar></Saerchbar>
+            <Jsonfile></Jsonfile>
+
         </div>
-       
+
     );
 };
 

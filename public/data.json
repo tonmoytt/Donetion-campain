@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "pic": "health.jpg",
+      "pic": "https://i.ibb.co/jgbv9nw/Rectangle-4284.png",
       "category_name": "Health",
       "title": "Yoga and Meditation Retreat",
       "description": "Rejuvenate your body and mind with a weekend getaway.",
@@ -13,7 +13,7 @@
     },
     {
       "id": 2,
-      "pic": "education.jpg",
+      "pic": "https://i.ibb.co/G7KtR2Y/Rectangle-4288.png",
       "category_name": "Education",
       "title": "Online Coding Bootcamp",
       "description": "Learn coding from industry experts online.",
@@ -25,7 +25,7 @@
     },
     {
       "id": 3,
-      "pic": "food.jpg",
+      "pic": "https://i.ibb.co/zrMnkF3/Food.png",
       "category_name": "Food",
       "title": "Gourmet Cooking Class",
       "description": "Master the art of gourmet cooking in a fun atmosphere.",
@@ -37,7 +37,7 @@
     },
     {
       "id": 4,
-      "pic": "health.jpg",
+      "pic": "https://i.ibb.co/N2040rG/Clothing.png",
       "category_name": "Health",
       "title": "Wellness and Fitness Workshop",
       "description": "Achieve your fitness goals and live a healthier life.",
@@ -49,7 +49,7 @@
     },
     {
       "id": 5,
-      "pic": "education.jpg",
+      "pic": "https://i.ibb.co/jgbv9nw/Rectangle-4284.png",
       "category_name": "Education",
       "title": "Language Learning Intensive",
       "description": "Become fluent in a new language in just 30 days.",
@@ -61,7 +61,7 @@
     },
     {
       "id": 6,
-      "pic": "food.jpg",
+      "pic": "https://i.ibb.co/G7KtR2Y/Rectangle-4288.png",
       "category_name": "Food",
       "title": "Wine Tasting Experience",
       "description": "Savor exquisite wines from around the world.",
@@ -73,7 +73,7 @@
     },
     {
       "id": 7,
-      "pic": "health.jpg",
+      "pic": "https://i.ibb.co/zrMnkF3/Food.png",
       "category_name": "Health",
       "title": "Mindfulness Meditation Course",
       "description": "Reduce stress and find inner peace through meditation.",
@@ -85,7 +85,7 @@
     },
     {
       "id": 8,
-      "pic": "education.jpg",
+      "pic": "https://i.ibb.co/N2040rG/Clothing.png",
       "category_name": "Education",
       "title": "Art Appreciation Workshop",
       "description": "Discover the world of art and its history.",
@@ -97,7 +97,7 @@
     },
     {
       "id": 9,
-      "pic": "food.jpg",
+      "pic": "https://i.ibb.co/jgbv9nw/Rectangle-4284.png",
       "category_name": "Food",
       "title": "Cooking Basics for Beginners",
       "description": "Learn essential cooking skills and recipes.",
@@ -109,7 +109,7 @@
     },
     {
       "id": 10,
-      "pic": "health.jpg",
+      "pic": "https://i.ibb.co/G7KtR2Y/Rectangle-4288.png",
       "category_name": "Health",
       "title": "Fitness Bootcamp",
       "description": "Get fit and strong with intensive fitness training.",
@@ -121,7 +121,7 @@
     },
     {
       "id": 11,
-      "pic": "education.jpg",
+      "pic": "https://i.ibb.co/zrMnkF3/Food.png",
       "category_name": "Education",
       "title": "Photography Masterclass",
       "description": "Capture stunning moments with your camera.",
@@ -133,7 +133,7 @@
     },
     {
       "id": 12,
-      "pic": "food.jpg",
+      "pic": "https://i.ibb.co/N2040rG/Clothing.png",
       "category_name": "Food",
       "title": "Gourmet Dining Experience",
       "description": "Indulge in a luxurious gourmet dining adventure.",

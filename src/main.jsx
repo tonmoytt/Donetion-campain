@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
- import './index.css'
+import './index.css'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -9,34 +9,38 @@ import Header from './component/headerall/Header';
 import Home from './component/headerall/home/Home';
 import Statistics from './component/headerall/Statistics/Statistics';
 import Donation from './component/headerall/donation/Donation';
- 
- 
- 
- 
- 
- 
+import Errrror from './Json/Errrror/Errrror';
+import Datashow from './Json/datashow/Datashow';
+
+
 
 const router = createBrowserRouter([
   {
-    path:  '/',
+    path: '/',
     element: <Header></Header>,
+    errorElement: <Errrror></Errrror>,
+    loader: () => fetch('data.json'),
     children: [
       {
         path: '/home',
-         element: <Home></Home> 
+        element: <Home></Home>
       },
       {
-        path:'/donation',
-        element:<Donation></Donation>
-        
+        path: '/donation',
+        element: <Donation></Donation>
+
       },
       {
-        path:'/statistics',
-        element:<Statistics></Statistics>
+        path: '/statistics',
+        element: <Statistics></Statistics>
       },
       {
-        path:'/search',
-         
+        path: '/search',
+
+      },
+      {
+        path:'/data/:id',
+        element:<Datashow></Datashow>
       }
     ]
   },

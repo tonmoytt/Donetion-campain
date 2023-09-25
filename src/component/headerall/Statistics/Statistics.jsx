@@ -2,8 +2,8 @@
 
 const Statistics = () => {
     return (
-        <div>
-            
+        <div className="m-10">
+            <h1>this is statics</h1>
         </div>
     );
 };
