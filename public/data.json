@@ -1,0 +1,147 @@
+[
+    {
+      "id": 1,
+      "pic": "health.jpg",
+      "category_name": "Health",
+      "title": "Yoga and Meditation Retreat",
+      "description": "Rejuvenate your body and mind with a weekend getaway.",
+      "price": "$199",
+      "card_background_color": "#FFD700",
+      "category_background_color": "#4CAF50",
+      "category_text_color": "#FFFFFF",
+      "title_text_color": "#333333"
+    },
+    {
+      "id": 2,
+      "pic": "education.jpg",
+      "category_name": "Education",
+      "title": "Online Coding Bootcamp",
+      "description": "Learn coding from industry experts online.",
+      "price": "$299",
+      "card_background_color": "#87CEEB",
+      "category_background_color": "#FF5722",
+      "category_text_color": "#FFFFFF",
+      "title_text_color": "#333333"
+    },
+    {
+      "id": 3,
+      "pic": "food.jpg",
+      "category_name": "Food",
+      "title": "Gourmet Cooking Class",
+      "description": "Master the art of gourmet cooking in a fun atmosphere.",
+      "price": "$149",
+      "card_background_color": "#FFA07A",
+      "category_background_color": "#FF9800",
+      "category_text_color": "#FFFFFF",
+      "title_text_color": "#333333"
+    },
+    {
+      "id": 4,
+      "pic": "health.jpg",
+      "category_name": "Health",
+      "title": "Wellness and Fitness Workshop",
+      "description": "Achieve your fitness goals and live a healthier life.",
+      "price": "$179",
+      "card_background_color": "#FFD700",
+      "category_background_color": "#4CAF50",
+      "category_text_color": "#FFFFFF",
+      "title_text_color": "#333333"
+    },
+    {
+      "id": 5,
+      "pic": "education.jpg",
+      "category_name": "Education",
+      "title": "Language Learning Intensive",
+      "description": "Become fluent in a new language in just 30 days.",
+      "price": "$249",
+      "card_background_color": "#87CEEB",
+      "category_background_color": "#FF5722",
+      "category_text_color": "#FFFFFF",
+      "title_text_color": "#333333"
+    },
+    {
+      "id": 6,
+      "pic": "food.jpg",
+      "category_name": "Food",
+      "title": "Wine Tasting Experience",
+      "description": "Savor exquisite wines from around the world.",
+      "price": "$129",
+      "card_background_color": "#FFA07A",
+      "category_background_color": "#FF9800",
+      "category_text_color": "#FFFFFF",
+      "title_text_color": "#333333"
+    },
+    {
+      "id": 7,
+      "pic": "health.jpg",
+      "category_name": "Health",
+      "title": "Mindfulness Meditation Course",
+      "description": "Reduce stress and find inner peace through meditation.",
+      "price": "$149",
+      "card_background_color": "#FFD700",
+      "category_background_color": "#4CAF50",
+      "category_text_color": "#FFFFFF",
+      "title_text_color": "#333333"
+    },
+    {
+      "id": 8,
+      "pic": "education.jpg",
+      "category_name": "Education",
+      "title": "Art Appreciation Workshop",
+      "description": "Discover the world of art and its history.",
+      "price": "$199",
+      "card_background_color": "#87CEEB",
+      "category_background_color": "#FF5722",
+      "category_text_color": "#FFFFFF",
+      "title_text_color": "#333333"
+    },
+    {
+      "id": 9,
+      "pic": "food.jpg",
+      "category_name": "Food",
+      "title": "Cooking Basics for Beginners",
+      "description": "Learn essential cooking skills and recipes.",
+      "price": "$99",
+      "card_background_color": "#FFA07A",
+      "category_background_color": "#FF9800",
+      "category_text_color": "#FFFFFF",
+      "title_text_color": "#333333"
+    },
+    {
+      "id": 10,
+      "pic": "health.jpg",
+      "category_name": "Health",
+      "title": "Fitness Bootcamp",
+      "description": "Get fit and strong with intensive fitness training.",
+      "price": "$199",
+      "card_background_color": "#FFD700",
+      "category_background_color": "#4CAF50",
+      "category_text_color": "#FFFFFF",
+      "title_text_color": "#333333"
+    },
+    {
+      "id": 11,
+      "pic": "education.jpg",
+      "category_name": "Education",
+      "title": "Photography Masterclass",
+      "description": "Capture stunning moments with your camera.",
+      "price": "$249",
+      "card_background_color": "#87CEEB",
+      "category_background_color": "#FF5722",
+      "category_text_color": "#FFFFFF",
+      "title_text_color": "#333333"
+    },
+    {
+      "id": 12,
+      "pic": "food.jpg",
+      "category_name": "Food",
+      "title": "Gourmet Dining Experience",
+      "description": "Indulge in a luxurious gourmet dining adventure.",
+      "price": "$299",
+      "card_background_color": "#FFA07A",
+      "category_background_color": "#FF9800",
+      "category_text_color": "#FFFFFF",
+      "title_text_color": "#333333"
+    }
+  ]
+  
