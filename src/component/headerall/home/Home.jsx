@@ -1,12 +1,14 @@
-import { Outlet } from "react-router-dom";
+
+import Saerchbar from "../../searchbar/Searchbar";
+import Jsonfile from "../../../Json/Jsonfile/Jsonfile";
 
  
 
 const Home = () => {
     return (
         <div className="m-10">
-             <h1>this is home</h1>
-            
+             <Saerchbar></Saerchbar>
+            <Jsonfile></Jsonfile>
         </div>
     );
 };

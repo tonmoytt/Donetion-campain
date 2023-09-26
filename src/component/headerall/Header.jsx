@@ -1,7 +1,6 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "./nav/Navbar";
-import Saerchbar from "../searchbar/Searchbar";
-import Jsonfile from "../../Json/Jsonfile/Jsonfile";
+
 // import '../searchbar/'
  
 const Header = () => {
@@ -12,10 +11,8 @@ const Header = () => {
                 <Navbar></Navbar>
             </div>
 
-            {/* <Outlet></Outlet> */}
-            <Saerchbar></Saerchbar>
-            <Jsonfile></Jsonfile>
-
+            <Outlet></Outlet>
+            
         </div>
 
     );

@@ -19,11 +19,11 @@ const router = createBrowserRouter([
     path: '/',
     element: <Header></Header>,
     errorElement: <Errrror></Errrror>,
-    loader: () => fetch('data.json'),
     children: [
       {
-        path: '/home',
-        element: <Home></Home>
+        path: '/',
+        element: <Home></Home>,
+        loader: () => fetch('/data.json'),
       },
       {
         path: '/donation',
@@ -40,7 +40,9 @@ const router = createBrowserRouter([
       },
       {
         path:'/data/:id',
-        element:<Datashow></Datashow>
+        element:<Datashow></Datashow>,
+        loader:() => fetch('/data.json'),
+        
       }
     ]
   },

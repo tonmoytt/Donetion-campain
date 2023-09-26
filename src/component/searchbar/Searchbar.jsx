@@ -2,7 +2,7 @@
 
 const Saerchbar = () => {
     return (
-        <div className="text-center mt-32">
+        <div className="text-center ">
             <h1 className="text-center text-3xl font- font-semibold">I Grow By Helping People In Need</h1>
           <div className="mt-4">
           <input className="px-2  py-1 rounded-lg bg-slate-300" type="text" placeholder="Search here..."/>

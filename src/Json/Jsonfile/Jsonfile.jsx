@@ -6,13 +6,13 @@ import Jsondata from "./jsondata/Jsondata";
 const Jsonfile = () => {
     const datas=useLoaderData();
     // const state=useState();
-    console.log(datas);
+    // console.log(datas);
     return (
         <div className="py-8 text-center">
             <h1 className="text-2xl">food section</h1>
             <div className="grid md:grid-cols-4 lg:grid-cols-4 gap-8  m-10">
                 {
-                    datas.map( data=> <Jsondata  data={data}></Jsondata>)
+                    datas.map( data=> <Jsondata     data={data}></Jsondata>)
                 }
             </div>
         </div>

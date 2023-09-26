@@ -4,8 +4,8 @@ import img from "../../../assets/img/Logo.png"
 const Navbar = () => {
     return (
         <div>
-        <div className="grid md:flexlg:flex justify-between items-center m-4 md:m-10 lg:m-10">
-            <img className="h-12 w-44"  src={img} alt="" />h
+        <div className="grid md:flex lg:flex justify-between items-center m-4 md:m-10 lg:m-10">
+            <img className="h-12 w-44"  src={img} alt="" />
             <div>
                 <ul className="flex gap-6 text-xl">
                     <li>
