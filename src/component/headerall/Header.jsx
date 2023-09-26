@@ -12,7 +12,7 @@ const Header = () => {
                 <Navbar></Navbar>
             </div>
 
-            <Outlet></Outlet>
+            {/* <Outlet></Outlet> */}
             <Saerchbar></Saerchbar>
             <Jsonfile></Jsonfile>
 
