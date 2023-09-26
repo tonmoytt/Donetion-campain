@@ -28,16 +28,19 @@ const hendelAddToDonete=()=>{
     const donated=JSON.parse(localStorage.getItem('doneted'))
     if(!donated){
         addToDonated.push(data)
-        localStorage.setItem('doneted ',JSON.stringify(addToDonated))
+        localStorage.setItem('doneted ',JSON.stringify(addToDonated));
+        swal("Good job!", "You clicked the button!", "success");
+
     }
     else{
         const isExit= donated.find(data => data.id===id)
         if(!isExit){
             addToDonated.push(...donated,data)
-            localStorage.setItem('doneted ',JSON.stringify(addToDonated))
+            localStorage.setItem('doneted ',JSON.stringify(addToDonated));
+            swal("Good job!", "Successfully added!", "success");
         }
 else{
-    swal("Good job!", "You clicked the button!", "success");
+    swal("Error", "Already added!", "Error");
     }
 
     // console.log(donated);
