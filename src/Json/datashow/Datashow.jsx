@@ -1,7 +1,9 @@
-import { setItem } from "localforage";
+// import { setItem } from "localforage";
+import swal from 'sweetalert';
+
 import { useEffect, useState } from "react";
 
-import { Link, useLoaderData, useParams } from "react-router-dom";
+import {  useLoaderData, useParams } from "react-router-dom";
 
  
 
@@ -10,6 +12,7 @@ const Datashow = () => {
     const params =useParams();
     console.log(params);
     const loader=useLoaderData();
+    const {id}=useLoaderData();
  
     useEffect(()=>{
         const findloader = loader.find(data=> data.id === parseInt(params.id))
@@ -20,10 +23,27 @@ const Datashow = () => {
 // hendle function///
 
 const hendelAddToDonete=()=>{
+    const addToDonated=[]
+
     const donated=JSON.parse(localStorage.getItem('doneted'))
-    console.log(donated);
-    // console.log(data);
-    localStorage.setItem('doneted',JSON.stringify([{name:"tonmoy"},{name:"tanim"}]) )
+    if(!donated){
+        addToDonated.push(data)
+        localStorage.setItem('doneted ',JSON.stringify(addToDonated))
+    }
+    else{
+        const isExit= donated.find(data => data.id===id)
+        if(!isExit){
+            addToDonated.push(...donated,data)
+            localStorage.setItem('doneted ',JSON.stringify(addToDonated))
+        }
+else{
+    swal("Good job!", "You clicked the button!", "success");
+    }
+
+    // console.log(donated);
+    // // console.log(data);
+    // localStorage.setItem('doneted',JSON.stringify([{name:"tonmoy"},{name:"tanim"}]) )
+}
 }
     return (
         <div className=" mx-32  ">
