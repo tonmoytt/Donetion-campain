@@ -4,7 +4,7 @@ import Datashow from "../../../Json/datashow/Datashow";
 
 
 const Donation = () => {
-    const [donated, setDonated] = useState([]);
+    const [donat, setDonated] = useState([]);
     const [nodata, setNodata] = useState("")
 
     useEffect(() => {
@@ -17,7 +17,7 @@ const Donation = () => {
         }
 
     }, [])
-    console.log(donated);
+    console.log(donat);
     console.log(nodata);
     return (
         <div className="m-10">
@@ -26,7 +26,7 @@ const Donation = () => {
                     :
                     <div>
                         {
-                            donated.map(donated=> <Datashow key={donated.id} donated={donated}></Datashow>)
+                            donat.map(donated=> <Datashow key={donated.id} donated={donated}></Datashow>)
                         }
 
                     </div>

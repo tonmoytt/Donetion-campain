@@ -1,23 +1,30 @@
+/* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 
 
- 
 
 const Jsondata = ({data}) => {
     
     const {id,pic,category_name,title,description,price,card_background_color,category_background_color,category_text_color,title_text_color}=data;
+    
+ const bgColor={backgroundColor:card_background_color}
+ const bgTitle={title:title_text_color}
+//  console.log(bgColor);
+ 
     return (
+        
+        <div style={bgColor}>
         <Link to={`/data/${id}`}>
-        <div className="bg-red-500">
+        <div style={bgTitle}>
             <img src={pic} alt="" />
-            <p>{category_name}</p>
-            <p>{title}</p>
+            <p className="text-2xl">{category_name}</p>
+            <p className="text-lg">{title}</p>
             <p>{description}</p>
             <p>{price}</p>
-            <p>{card_background_color}</p>
-            <p>{category_background_color}</p>
+            
         </div>
         </Link>
+        </div>
     );
 };
 
