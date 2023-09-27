@@ -30,7 +30,6 @@ const Datashow = () => {
         const donated = JSON.parse(localStorage.getItem('doneted'));
         if (!donated) {
             addToDonated.push(data)
-            // console.log(addToDonated);
             localStorage.setItem('doneted', JSON.stringify(addToDonated));
             swal("Successful", "Successfully added!", "success");
 
@@ -55,7 +54,7 @@ const Datashow = () => {
 
     return (
 
-        <div className=" mx-32  ">
+        <div className=" mx-10 md:mx-24 lg:mx-32  ">
 
 
 

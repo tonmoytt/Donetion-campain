@@ -10,7 +10,7 @@ const Jsonfile = () => {
     return (
         <div className="py-8 text-center">
             {/* <h1 className="text-2xl">food section</h1> */}
-            <div className="grid md:grid-cols-4 lg:grid-cols-4 gap-8  m-10">
+            <div className="grid md:grid-cols-4 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8 m-4 md:m-8 lg:m-10">
                 {
                     datas.map( data=> <Jsondata key={data.id}    data={data}></Jsondata>)
                 }

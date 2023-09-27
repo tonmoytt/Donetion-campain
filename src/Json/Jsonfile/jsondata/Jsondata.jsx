@@ -15,10 +15,10 @@ const Jsondata = ({data}) => {
         
         <div style={bgColor}>
         <Link to={`/data/${id}`}>
-        <div style={bgTitle}>
+        <div >
             <img src={pic} alt="" />
             <p className="text-2xl">{category_name}</p>
-            <p className="text-lg">{title}</p>
+            <p style={bgTitle} className="text-lg">{title}</p>
             <p>{description}</p>
             <p>{price}</p>
             
