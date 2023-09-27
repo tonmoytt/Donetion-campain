@@ -7,20 +7,20 @@ const Jsondata = ({data}) => {
     
     const {id,pic,category_name,title,description,price,card_background_color,category_background_color,category_text_color,title_text_color}=data;
     
- const bgColor={backgroundColor:card_background_color}
- const bgTitle={title:title_text_color}
-//  console.log(bgColor);
+//  const bgColor={backgroundColor:card_background_color,}
+//  const bgTitle={{title:title_text_color}}
  
     return (
         
-        <div style={bgColor}>
+        <div style={ {backgroundColor:card_background_color,}}>
         <Link to={`/data/${id}`}>
         <div >
             <img src={pic} alt="" />
-            <p className="text-2xl">{category_name}</p>
-            <p style={bgTitle} className="text-lg">{title}</p>
+            <p style={ {backgroundColor:category_background_color,}} className="text-2xl">{category_name}</p>
+            <p style={ {backgroundColor:title_text_color,}} className="text-lg">{title}</p>
             <p>{description}</p>
-            <p>{price}</p>
+            <p style={ {backgroundColor:category_text_color,}}>{price}</p>
+            
             
         </div>
         </Link>

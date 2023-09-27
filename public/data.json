@@ -8,8 +8,8 @@
       "price": "$199",
       "card_background_color": "#FFD700",
       "category_background_color": "#4CAF50",
-      "category_text_color": "#FFFFFF",
-      "title_text_color": "#333333"
+      "category_text_color": "#009688",
+      "title_text_color": "#FF5728"
     },
     {
       "id": 2,
@@ -20,8 +20,8 @@
       "price": "$299",
       "card_background_color": "#87CEEB",
       "category_background_color": "#FF5722",
-      "category_text_color": "#FFFFFF",
-      "title_text_color": "#333333"
+      "category_text_color": "#FFD700",
+      "title_text_color": "#E91E63"
     },
     {
       "id": 3,
@@ -32,8 +32,8 @@
       "price": "$149",
       "card_background_color": "#FFA07A",
       "category_background_color": "#FF9800",
-      "category_text_color": "#FFFFFF",
-      "title_text_color": "#333333"
+      "category_text_color": "#87CEEB",
+      "title_text_color": "#607D8B"
     },
     {
       "id": 4,
@@ -44,8 +44,8 @@
       "price": "$179",
       "card_background_color": "#FFD700",
       "category_background_color": "#4CAF50",
-      "category_text_color": "#FFFFFF",
-      "title_text_color": "#333333"
+      "category_text_color": "#009688",
+      "title_text_color": "#FF5722"
     },
     {
       "id": 5,
@@ -56,8 +56,8 @@
       "price": "$249",
       "card_background_color": "#87CEEB",
       "category_background_color": "#FF5722",
-      "category_text_color": "#FFFFFF",
-      "title_text_color": "#333333"
+      "category_text_color": "#673AB7",
+      "title_text_color": "#4CAF50"
     },
     {
       "id": 6,
@@ -68,8 +68,8 @@
       "price": "$129",
       "card_background_color": "#FFA07A",
       "category_background_color": "#FF9800",
-      "category_text_color": "#FFFFFF",
-      "title_text_color": "#333333"
+      "category_text_color":  "#FF5722",
+      "title_text_color":  "#FFD700"
     },
     {
       "id": 7,
@@ -80,8 +80,8 @@
       "price": "$149",
       "card_background_color": "#FFD700",
       "category_background_color": "#4CAF50",
-      "category_text_color": "#FFFFFF",
-      "title_text_color": "#333333"
+      "category_text_color": "#FF9800",
+      "title_text_color": "#009688"
     },
     {
       "id": 8,
@@ -92,8 +92,8 @@
       "price": "$199",
       "card_background_color": "#87CEEB",
       "category_background_color": "#FF5722",
-      "category_text_color": "#FFFFFF",
-      "title_text_color": "#333333"
+      "category_text_color": "#E91E63",
+      "title_text_color": "#673AB7"
     },
     {
       "id": 9,
@@ -104,8 +104,8 @@
       "price": "$99",
       "card_background_color": "#FFA07A",
       "category_background_color": "#FF9800",
-      "category_text_color": "#FFFFFF",
-      "title_text_color": "#333333"
+      "category_text_color": "#607D8B",
+      "title_text_color": "#FF5722"
     },
     {
       "id": 10,
@@ -116,8 +116,8 @@
       "price": "$199",
       "card_background_color": "#FFD700",
       "category_background_color": "#4CAF50",
-      "category_text_color": "#FFFFFF",
-      "title_text_color": "#333333"
+      "category_text_color":  "#3F51B5",
+      "title_text_color": "#E91E63"
     },
     {
       "id": 11,
@@ -128,8 +128,8 @@
       "price": "$249",
       "card_background_color": "#87CEEB",
       "category_background_color": "#FF5722",
-      "category_text_color": "#FFFFFF",
-      "title_text_color": "#333333"
+      "category_text_color": "#009688",
+      "title_text_color": "#FF9800"
     },
     {
       "id": 12,
@@ -140,8 +140,8 @@
       "price": "$299",
       "card_background_color": "#FFA07A",
       "category_background_color": "#FF9800",
-      "category_text_color": "#FFFFFF",
-      "title_text_color": "#333333"
+      "category_text_color": "#FF5722",
+      "title_text_color": "#009688"
     }
   ]
 
